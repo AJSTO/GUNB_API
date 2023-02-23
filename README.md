@@ -38,3 +38,7 @@ Check github repo: [FastAPI-on-Google-Cloud-Run](https://github.com/sekR4/FastAP
 ## ⏩ Demo version
 [GUNB-API](https://gunb-api-4zobymftpq-lm.a.run.app)
 ![IMG_API](https://i.ibb.co/Nnjx3cw/Zrzut-ekranu-2023-02-21-o-12-04-11.png)
+
+
+To get into Swagger UI click on the API home page: [API Documentation](https://gunb-api-4zobymftpq-lm.a.run.app/docs)
+![IMG_SWAGGER](https://i.ibb.co/qRk0YSQ/Zrzut-ekranu-2023-02-22-o-20-09-19.png)
