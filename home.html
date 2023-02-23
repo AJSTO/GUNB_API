@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Building Permissions API</title>
+    <style>
+      body {
+        background-image: url(https://ichef.bbci.co.uk/images/ic/1200x675/p08rkqxl.jpg);
+      }
+      h1 {
+        color: white;
+      }
+      p {
+        color: black;
+      }
+      a {
+        color: darkblue;
+      }
+      mark {
+        background-color: lightblue;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+  <h1><mark>
+    Welcome to the Building Permissions API
+  </mark></h1>
+    <p><mark>
+      This API allows you to retrieve information about number of building permissions for given unit id
+      divided by category, type of building permission compared to last month, last two months,
+      last three months from given date.
+    </mark></p>
+    <p><mark>
+      Available units types: voivodeships, countys, cadastral units.
+    </mark></p>
+    <p><mark>
+      Information based on official website of GUNB (General Office of Building Supervision in Poland):
+        <a href="https://wyszukiwarka.gunb.gov.pl/">GUNB SITE</a>.
+    </mark></p>
+    <h2><mark>
+      API Endpoints
+    </mark></h2>
+    <ul>
+        <li><mark><a href="/info">/info</a> - <i>to get all available unit id</i></mark></li>
+      <li><mark>/aggregates/{unit_id}?date={YYYY-MM} - <i>to get detailed info about given permissions by unit, status for given
+        month, if month not given API will return data for actual month.</i></mark></li>
+    </ul>
+    <h2><mark>
+      API Documentation
+    </mark></h2>
+    <p><mark>
+      For detailed documentation on how to use this API, please see <a href="/docs">our API documentation</a>.
+    </mark></p>
+    <h2><mark>
+      API Support
+    </mark></h2>
+    <p><mark>
+      If you have any questions or need assistance using our API, please contact us at:
+        <a href="#">adamstolarczyk1994@gmail.com</a>.
+    </mark></p>
+  </body>
+</html>
